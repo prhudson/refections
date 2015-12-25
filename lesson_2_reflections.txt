@@ -1,1 +1,4 @@
 A new git repository is empty. The git status command will show which files are being tracked or not tracked by the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The stating area allows the user to group files that are related via the current change into one commit with the same time stamp.
