@@ -1,0 +1,1 @@
+A new git repository is empty. The git status command will show which files are being tracked or not tracked by the repository.
