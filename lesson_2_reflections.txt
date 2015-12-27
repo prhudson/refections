@@ -2,3 +2,18 @@ A new git repository is empty. The git status command will show which files are 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The stating area allows the user to group files that are related via the current change into one commit with the same time stamp.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Use the git diff and git diff --stage
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Adding a new feature that would allow you to make changes without corrupting the orignal work.
+
+How do the diagrams help you visualize the branch structure?
+it shows where branches have been created and what changes have been made to each branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The code from both the branchs was combined to make one file that had both the changes, additions and deletions, as one source code that could be run. It also shows the histroy and all changes between all of the files.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging may not be able to resolve all conficts, but if it dowes work, it can save you a log of time.
